@@ -9,7 +9,8 @@ namespace TextAnalyzerBatoman.TextAnalysis
 {
     internal class TextAnalyzer : BasicAnalyzer
     {
-        protected override void Analyze(string text)
+        //todo replace BasicAnalysisData with TextAnalysisData
+        public override BasicAnalysisData Analyze(string text)
         {
             throw new NotImplementedException();
         }
